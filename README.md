@@ -1,4 +1,4 @@
-# bug_festival_26
+7# bug_festival_26
 
 ```
 import math
@@ -154,4 +154,41 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+const r = 250;
+const s = 5;
+
+function buildBeam(x, z) {
+  // ここに梁を建設するコードを書く
+  // 例:
+  // setBlock(x, y, z, "minecraft:stone");
+}
+
+for (let n = 0; n < (2 * Math.PI * r) / s; n++) {
+  const theta = (n * s) / r;
+
+  const x = Math.round(r * Math.cos(theta));
+  const z = Math.round(r * Math.sin(theta));
+
+  buildBeam(x, z);
+}
+```
+const r = 250;
+const s = 5;
+
+function buildBeam(x, z) {
+  // ここに梁を建設するコードを書く
+  // 例:
+  // setBlock(x, y, z, "minecraft:stone");
+}
+
+for (let n = 0; n < (2 * Math.PI * r) / s; n++) {
+  const theta = (n * s) / r;
+
+  const x = Math.round(r * Math.cos(theta));
+  const z = Math.round(r * Math.sin(theta));
+
+  buildBeam(x, z);
+}
+
 ```
