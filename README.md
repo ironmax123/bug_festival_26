@@ -199,3 +199,17 @@ function buildBeam(x: number, z: number) {
     blocks.place(STONE, positions.add(start, pos(x, 0, z)))
 }
 ```
+
+```
+for (let n = 0; n <= (Math.PI * r) / (2 * s); n++) {
+    const theta = (n * s) / r
+
+    const x = Math.round(r * Math.cos(theta))
+    const z = Math.round(r * Math.sin(theta))
+
+    buildBeam( x,  z)
+    buildBeam(-x,  z)
+    buildBeam( x, -z)
+    buildBeam(-x, -z)
+}
+```
