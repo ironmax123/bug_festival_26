@@ -192,3 +192,10 @@ for (let n = 0; n < (2 * Math.PI * r) / s; n++) {
 }
 
 ```
+
+
+```
+function buildBeam(x: number, z: number) {
+    blocks.place(STONE, positions.add(start, pos(x, 0, z)))
+}
+```
